@@ -4,8 +4,8 @@ import {
   EachBatchPayload,
   Kafka,
   EachMessagePayload,
-  LogEntry
 } from "kafkajs";
+
 
 export interface ExampleMessageProcessor {
   a: string;
